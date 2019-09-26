@@ -18,3 +18,7 @@ x = 'Hey'
 print('{}, {} are the {} who say "{}!"'.format(x, 'We', 'Knights', 'Nee'))
 
 print('This {food} is {adjective} {object}'.format(food = 'cake', adjective = 'very', object = 'good'))
+
+# 
+for x in range(1, 11):
+	print('{0:2d} {1:3d} {2:4d}'.format(x, x*x, x*x*x))
