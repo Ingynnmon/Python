@@ -22,3 +22,13 @@ print('This {food} is {adjective} {object}'.format(food = 'cake', adjective = 'v
 # 
 for x in range(1, 11):
 	print('{0:2d} {1:3d} {2:4d}'.format(x, x*x, x*x*x))
+
+# 7.2 Reading and Writing files
+f = open('workfile','w')
+
+with open('workfile') as f:
+	read_data = f.read()
+
+>>>f.read()
+'This is the entire file. \n'
+>>>f.read()
